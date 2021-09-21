@@ -1,0 +1,62 @@
+html {}
+
+head {}
+
+a {text-decoration: none; cursor: pointer; color: #AAAAAA;}
+
+    a:visited {color: #6D6D6D;}
+    a:active {color: #6D6D6D;}
+
+body {margin: 0; padding: 0; font-family:Arial, Helvetica, sans-serif ; background-color: #white; color: #6d6d6d;}
+
+/* HEADER */
+header {width: 100%; height: 60px; background-color: #F7F7F7;}
+
+    /* ESPACIO PARA EL MENÚ */
+    header nav {display: flex; justify-content: flex-end;}
+
+    /* MENÚ HORIZONTAL */
+    header nav .nav-right-section {width: 400px; height: auto; display: flex; list-style: none; justify-content: center; align-items: center;}
+
+        /* La privacidad simplificada */
+        nav .nav-right-section .learn-more {height: 0px; margin-right: 0px; display: flex; align-items: center; justify-content: center;  position: relative; bottom: 3px;}
+
+        /* Íconos */
+        nav .nav-right-section .icons {margin-right: 5px;}
+
+/* BODY */
+
+main {margin-top: 128.5px; text-align: center;}
+
+.main-logo {width: 205px; height: auto; margin: 0 auto;}
+
+
+main .text-input {width: 590px; margin: 0 auto; margin-bottom: 60px; border: 1px solid #D9D9D9; margin-top: 45px; margin-bottom: 30px; border-radius: 4px; box-shadow: 0 2px 3px 0 rgba(0,0,0,0.06)}
+
+main .text-input-container {width: 600px; height: 45.96px; margin: 0 auto; border-radius: 0px; border: 1px solid #FFFFFF; display: flex; justify-content: center; align-items: center;}
+
+main .text-input input {
+    width: 500px; 
+    height: 40px; 
+    border: none; 
+    outline: none;
+}
+main .text-input .search-icon {
+    background-image:url("https://i.ibb.co/R3ndwj6/Captura-de-Pantalla-2021-09-21-a-la-s-11-01-32.png");
+    height: 25px;
+    width: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    z-index: 1;
+    position: relative;
+    left: 10px;
+}
+
+main .under-message {color: #9B9B9B; font-size: 17px; margin-bottom: 60px;}
+
+main .hiperlink {color: #4495D4;}
+
+main .bottom-image {height: 100%; margin: 0 auto; margin-top: 160px;}
+
+    main .bottom-image img {height: 80px;}
